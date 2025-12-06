@@ -1,0 +1,1006 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: f4f4f4;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+
+/* Animaatio tausta vääri */
+
+.bodybgGradient {
+    background: linear-gradient(342deg, #edbfda, #c88fc2, #6ca5c3, #6486c4);
+    background-size: 200% 200%;
+    animation: gradient 25s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* Toisen tausta väri(Tähän se vääri mitä vaihtu ) */
+
+.bodybgBlue {
+    background-color: #7c9bbe;
+}
+
+
+/* Kalenterin otsikko */
+
+h2 {
+    color: rgb(7, 7, 7);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.70em;
+    font-size: large;
+    margin: 0;
+    padding: 15px 0;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+/* Slogan määritykset */
+
+.slogancontainer {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 50px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slogan {
+    color: #ffffff;
+    text-shadow: 2px 2px 8px #000000;
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.40em;
+    font-size: x-large;
+    margin: 15px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+
+/* Kaikki tekstiit sivussa */
+
+article {
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.teksti {
+    color: rgb(7, 7, 7);
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: rgba(221, 217, 221, 0.4);
+    width: 97%;
+    min-width: 250px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* logon  määritykset */
+
+.image {
+    width: 50%;
+    min-width: 250px;
+    max-width: 350px;
+    margin: 1px;
+    border-radius: 26%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside {
+    float: right;
+}
+
+
+/* Container for main menu navigation buttons */
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(221, 217, 221, 0.4);
+    width: 97%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Navigaation napit*/
+
+.button {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.button:hover {
+    color: rgb(255, 255, 255);
+    background: #030303ab;
+}
+
+.button:active {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #030303ab;
+}
+
+.button:focus {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #030303ab;
+}
+
+
+/* Tekstieihin boxiia */
+
+#text-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 150px;
+    border: 2px rgba(136, 136, 136, 0.534);
+    padding: 5px;
+    background-color: F4F4F4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text-container2 {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 150px;
+    border: 2px rgba(136, 136, 136, 0.534);
+    padding: 5px;
+    background-color: F4F4F4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text-container3 {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 150px;
+    border: 2px rgba(136, 136, 136, 0.534);
+    padding: 5px;
+    background-color: F4F4F4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Text container joka article elementeillä */
+
+#section {
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: rgba(221, 217, 221, 0.4);
+}
+
+footer {
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+/* Sosiaaliseen median ikonit */
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+    width: 77px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    opacity: 70%;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    opacity: 70%;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    opacity: 70%;
+}
+
+
+/*  Kalenteriin määritykset */
+
+#calendar {
+    width: 100%;
+    max-width: 850px;
+    margin: 0px auto;
+}
+
+
+/*   Kun merkkintä on lisätty Alert(messgae) määritykset */
+
+.response {
+    height: 30px;
+}
+
+.success {
+    background: #cdf3cd;
+    padding: 10px 60px;
+    border: #c3e6c3 1px solid;
+    display: inline-block;
+}
+
+
+/* käyttäjän nimi, kun ollan kirjautuneet määritykset */
+
+.loggedin {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    line-height: 1.70em;
+}
+
+
+/* kirjaudu ulos nappula */
+
+#logout {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: large;
+    margin-left: 5px;
+    line-height: 1.70em;
+    background-color: #8682829a;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #8682829a;
+}
+
+#logout:hover {
+    background-color: #030303ab;
+    border-style: inset;
+}
+
+#logout:active {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #030303ab;
+}
+
+#logout:focus {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #030303ab;
+}
+
+@media only screen and (max-width: 450px) {
+    #logout {
+        display: block;
+        max-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+}
+
+
+/* käyttäjän nimi, kun ollan kirjautuneet määritykset */
+
+#myname {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Luo tili/Kirjaudu sisään linkiit sivuilla create-account.php ja logIn.php määritykset */
+
+#link1,
+#link2 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 1.70em;
+    background-color: #86828260;
+    border-style: outset;
+    border-width: 1px;
+    border-color: #86828260;
+}
+
+
+/* Luo tili/Kirjaudu sisään linkiit sivuilla create-account.php ja logIn.php määritykset */
+
+#link1,
+#link2 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 1.70em;
+    background-color: #8682829a;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #8682829a;
+}
+
+#link1:hover,
+#link2:hover {
+    background-color: #030303ab;
+    border-style: inset;
+}
+
+#link1:active,
+#link2:active {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #030303ab;
+}
+
+#link1:focus,
+#link2:focus {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #030303ab;
+}
+
+
+/* /Vaihta tausta väärit nappullat/ */
+
+.backgroundbutton {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 1.70em;
+    background-color: #8682829a;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #8682829a;
+    outline: none;
+}
+
+.backgroundbutton:hover {
+    background-color: #030303ab;
+    border-style: inset;
+}
+
+.backgroundbutton:active {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #030303ab;
+}
+
+.backgroundbutton:focus {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #030303ab;
+}
+
+
+/* header palkkin otsikko */
+
+header {
+    background-color: rgba(221, 217, 221, 0.4);
+    width: 100%;
+    float: center;
+    padding: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+:-webkit-any(aside, section, h1) {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(243, 243, 243);
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/*Log in and Create account inputs */
+
+.form-input-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px 0;
+    width: 20%;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.70em;
+    background-color: #8682829a;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #8682829a;
+    width: 140px;
+    margin: 0 5px;
+    padding: 7px 10px;
+}
+
+
+/* When moving the mouse over the submit button, add a darker color */
+
+input[type=submit]:hover {
+    background-color: #030303ab;
+}
+
+input[type=submit]:active {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #030303ab;
+}
+
+input[type=submit]:focus {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #030303ab;
+}
+
+
+/* firstname & lastname & email,  input fileds adjustments */
+
+input[type=text],
+select {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 25%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+@media only screen and (max-width: 850px) {
+    input[type=text],
+    select,
+    textarea {
+        width: 70%;
+    }
+}
+
+
+/* kyselyn vaihtoehtojen kentät */
+
+select {
+    width: -webkit-fill-available;
+    max-width: 698px;
+}
+
+
+/* password input fileds adjustments */
+
+input[type="password" i] {
+    -webkit-text-security: disc !important;
+    padding: 1px 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 25%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+@media only screen and (max-width: 850px) {
+    input[type="password" i] {
+        width: 70%;
+    }
+}
+
+
+/* weight & height & age input fileds adjustments */
+
+input[type="number" i] {
+    padding: 1px 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 25%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+@media only screen and (max-width: 850px) {
+    input[type="number" i] {
+        width: 70%;
+    }
+}
+
+input[type="email" i] {
+    padding: 1px 2px;
+    padding: 1px 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 25%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+@media only screen and (max-width: 850px) {
+    input[type="email" i] {
+        width: 70%;
+    }
+}
+
+
+/* Add a background color and some padding around the form */
+
+.containeri {
+    border-radius: 5px;
+    background-color: #f2f2f270;
+    padding: 20px;
+}
+
+
+/* Used for flexbox for buttons on log in/create account pages*/
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*Feedback button on info-page */
+
+#send-feedback {
+    background-color: rgb(69, 128, 96);
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 1.70em;
+    border-style: outset;
+    border-width: 1px;
+    border-color: #86828260;
+}
+
+#send-feedback:hover {
+    background-color: #03030380;
+    border-style: inset;
+}
+
+
+/* Send(Lähetä) button */
+
+#send {
+    background-color: rgb(69, 128, 96);
+}
+
+#send:hover {
+    background-color: #03030356;
+}
+
+
+/*Delete profile button*/
+
+button#poistaTili {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: red;
+    line-height: 1.70em;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 100px;
+    color: white;
+    /*position: justify;*/
+    left: 88%;
+    font-size: medium;
+    padding: 10px;
+    float: right;
+    border-style: outset;
+    border-width: 1px;
+    border-color: red;
+}
+
+
+/* poista tili nappulla */
+
+button#poistaTili:hover {
+    background-color: #ffffffbd;
+    color: red;
+    cursor: pointer;
+    border-style: inset;
+}
+
+
+/* paivita tili nappulla */
+
+button#paivitaTili {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(69, 128, 96);
+    line-height: 1.70em;
+    padding: 4px 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 100px;
+    color: white;
+    left: 88%;
+    font-size: medium;
+    padding: 10px;
+    float: right;
+    border-style: outset;
+    border-width: 1px;
+    border-color: rgb(69, 128, 96);
+}
+
+button#paivitaTili:hover {
+    background-color: #ffffffbd;
+    color: rgb(69, 128, 96);
+    cursor: pointer;
+    border-style: inset;
+}
+
+
+/* createAccount ja updateProfile sukupuolien radionappuloiden container */
+
+.radio {
+    position: relative;
+}
+
+
+/* createAccount and updateProfile radio buttons*/
+
+.radiogender {
+    float: left;
+    left: 48%;
+    position: absolute;
+}
+
+
+/**** MEDIA QUERY ****/
+
+@media only screen and (max-width: 992px) {
+    input[type=submit] {
+        width: 130px;
+    }
+    .radiogender {
+        left: 45%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    input[type=submit] {
+        width: 130px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .sendbutton {
+        order: -1;
+    }
+    .button {
+        font-size: 17px;
+    }
+    .radiogender {
+        left: 40%;
+    }
+}
+
+
+/*kalenterimerkinnän taulukon sarakkeiden värit*/
+
+th {
+    background-color: #508cc9;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 385px) {
+    th {
+        position: relative;
+        right: 3%;
+    }
+    td {
+        position: relative;
+        right: 3%;
+    }
+}
+
+td {
+    background-color: #a0c5f3;
+    border-width: 1px;
+    padding: 10px;
+}
+
+
+/* /profiili sivulla käyttäjän tiedot/  */
+
+span.firstName {
+    position: relative;
+    left: 2%;
+    font-weight: 100;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0 0 0);
+}
+
+span.lastName {
+    position: relative;
+    left: 2%;
+    font-weight: 100;
+}
+
+span.email {
+    position: relative;
+    left: 2%;
+    font-weight: 100;
+}
+
+span.age {
+    position: relative;
+    left: 2%;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 500px) {
+    span.email {
+        position: relative;
+        left: 0.5%;
+    }
+}
+
+
+/* Polariin linkki etusivulla */
+
+a#polar {
+    color: #bb0000;
+    font-weight: bold;
+    text-decoration: initial;
+}
+
+
+/* Tutustu meihin nappulla info sivulla */
+
+.aboutus {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: large;
+    margin-left: 5px;
+    line-height: 1.70em;
+    background-color: #86828260;
+    border-style: outset;
+    border-width: 1px;
+    border-color: #86828260;
+    float: right;
+}
+
+.aboutus:hover {
+    background-color: #c4349a;
+    color: white;
+}
+
+
+/* analyysointiin sivulla oleva taulukon määritykset */
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 4px;
+    border-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+
+/* Palaute lomakkeen input määritykset */
+
+input#name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+    ;
+}
+
+input#sposti {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+    ;
+}
+
+textarea.palaute {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+    ;
+}
+
+
+/* Chart määritykset */
+
+#chartdiv,
+#chartdiv2,
+#chartdiv3 {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+
+/*   taulukon  H2 tekstiin määritykset */
+
+.table-text {
+    padding: 0;
+}
+
+
+/*   taulukon P tekstiin määritykset */
+
+.table-ptext {
+    margin-top: 0px;
+}
+
+
+/* antaa palaute nappula määritykset */
+
+a.contactUs {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: large;
+    margin-left: 0px;
+    line-height: 1.70em;
+    background-color: #8682829a;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #8682829a;
+}
+
+a.contactUs:hover {
+    background-color: #030303ab;
+    color: white;
+}
+
+
+/* analyysisivun värikoodit taulukoihin */
+
+mark.red {
+    color: #ff0000;
+    background: none;
+}
+
+mark.green {
+    color: rgb(30, 155, 30);
+    background: none;
+}
+
+mark.blue {
+    color: rgb(56, 56, 204);
+    background: none;
+}

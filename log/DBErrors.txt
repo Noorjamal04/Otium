@@ -1,0 +1,6 @@
+Connection: rivi5
+Connection rivi8: panodu@mailinator.com
+Connection: rivi8SELECT id FROM otium where email = :email
+Connection rivi26: 
+Connection: rivi12SELECT id FROM otium where email = :email
+Connection: rivi18SELECT id FROM otium where email = :email
