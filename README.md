@@ -1,2 +1,4 @@
 # Otium
-A web application where users log daily feelings while Polar devices sync HRV data automatically. The app visualizes stress levels and enables doctors to review patient metrics, supporting diagnoses through combined emotional input and heartbeat variability analysis.
+ This project is a web application designed to help users track their emotional well-being alongside physiological data. Users can record their daily feelings, while the Polar heartbeat measuring device automatically syncs heartbeat variability (HRV) data into the platform. The application analyses HRV to provide insights into stress levels, giving users a clear view of their mental and physical state.
+
+Beyond personal use, the system enables collaboration between doctors and patients. Physicians can access the combined emotional inputs and HRV metrics to support more accurate diagnoses and monitoring. By integrating subjective feelings with objective biometric data, the application bridges the gap between self-reflection and medical evaluation, offering a practical tool for stress management and healthcare support.
